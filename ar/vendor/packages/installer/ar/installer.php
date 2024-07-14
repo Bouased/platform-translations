@@ -7,13 +7,13 @@ return [
      * Traductions partagées.
      *
      */
-    'title' => 'Installation',
-    'next' => 'Étape suivante',
-    'back' => 'Précédent',
-    'finish' => 'Installer',
-    'installation' => 'Installation',
+    'title' => 'تثبيت',
+    'next' => 'الخطوة التالية',
+    'back' => 'الخطوة السابقة',
+    'finish' => 'انتهاء',
+    'installation' => 'تثبيت',
     'forms' => [
-        'errorTitle' => 'Les erreurs suivantes se sont produites :',
+        'errorTitle' => 'حدثت الأخطاء التالية:',
     ],
 
     /**
@@ -22,11 +22,11 @@ return [
      *
      */
     'welcome' => [
-        'pageTitle' => 'Installation - Étape 1 : Bienvenue',
-        'title' => 'Bienvenue',
-        'message' => 'Avant de commencer, nous avons besoin de certaines informations sur la base de données. Vous devrez connaître les éléments suivants avant de continuer.',
-        'language' => 'Langue',
-        'next' => 'Allons-y',
+        'pageTitle' => 'التثبيت - الخطوة 1: مرحباً بكم',
+        'title' => 'مرحباً بكم',
+        'message' => 'قبل أن نبدأ، نحتاج إلى بعض المعلومات حول قاعدة البيانات. ستحتاج إلى معرفة ما يلي قبل المتابعة.',
+        'language' => 'اللغة',
+        'next' => 'لننطلق',
     ],
 
     /**
@@ -35,9 +35,9 @@ return [
      *
      */
     'requirements' => [
-        'pageTitle' => 'Installation - Étape 2 : Exigences du serveur',
-        'title' => 'Exigences du serveur',
-        'next' => 'Vérifier les autorisations',
+        'pageTitle' => 'التثبيت - الخطوة 2: متطلبات السيرفر',
+        'title' => 'متطلبات السيرفر',
+        'next' => 'التحقق من التراخيص',
     ],
 
     /**
@@ -46,7 +46,7 @@ return [
      *
      */
     'permissions' => [
-        'next' => 'Configurer l\'environnement',
+        'next' => 'إعداد البيئة',
     ],
 
     /**
@@ -56,32 +56,32 @@ return [
      */
     'environment' => [
         'wizard' => [
-            'pageTitle' => 'Installation - Étape 3 : Paramètres de l\'environnement',
-            'title' => 'Paramètres de l\'environnement',
+            'pageTitle' => 'التثبيت - الخطوة 3: إعدادات البيئة',
+            'title' => 'إعدادات البيئة',
             'form' => [
-                'name_required' => 'Un nom d\'environnement est requis.',
-                'app_name_label' => 'Titre du site',
-                'app_name_placeholder' => 'Titre du site',
-                'app_url_label' => 'URL',
-                'app_url_placeholder' => 'URL',
-                'db_connection_label' => 'Connexion à la base de données',
+                'name_required' => 'اسم البيئة مطلوب.',
+                'app_name_label' => 'عنوان الموقع',
+                'app_name_placeholder' => 'عنوان الموقع',
+                'app_url_label' => 'عنوان الرابط',
+                'app_url_placeholder' => 'عنوان الرابط',
+                'db_connection_label' => 'الاتصال بقاعدة البيانات',
                 'db_connection_label_mysql' => 'MySQL',
                 'db_connection_label_sqlite' => 'SQLite',
                 'db_connection_label_pgsql' => 'PostgreSQL',
-                'db_host_label' => 'Hôte de la base de données',
-                'db_host_placeholder' => 'Hôte de la base de données',
-                'db_port_label' => 'Port de la base de données',
-                'db_port_placeholder' => 'Port de la base de données',
-                'db_name_label' => 'Nom de la base de données',
-                'db_name_placeholder' => 'Nom de la base de données',
-                'db_username_label' => 'Nom d\'utilisateur de la base de données',
-                'db_username_placeholder' => 'Nom d\'utilisateur de la base de données',
-                'db_password_label' => 'Mot de passe de la base de données',
-                'db_password_placeholder' => 'Mot de passe de la base de données',
+                'db_host_label' => 'مزود قاعدة البيانات',
+                'db_host_placeholder' => 'مزود قاعدة البيانات',
+                'db_port_label' => 'بوابة قاعدة البيانات',
+                'db_port_placeholder' => 'بوابة قاعدة البيانات',
+                'db_name_label' => 'اسم قاعدة البيانات',
+                'db_name_placeholder' => 'اسم قاعدة البيانات',
+                'db_username_label' => 'اسم مستخدم قاعدة البيانات',
+                'db_username_placeholder' => 'اسم مستخدم قاعدة البيانات',
+                'db_password_label' => 'كلمة مرور قاعدة البيانات',
+                'db_password_placeholder' => 'كلمة مرور قاعدة البيانات',
                 'buttons' => [
-                    'install' => 'Installer',
+                    'install' => 'التثبيت',
                 ],
-                'db_host_helper' => 'Si vous utilisez Laravel Sail, changez simplement DB_HOST en DB_HOST=mysql. Sur certains hébergements, DB_HOST peut être localhost au lieu de 127.0.0.1',
+                'db_host_helper' => 'إذا كنت تستخدم Laravel Sail، ما عليك سوى تغيير DB_HOST إلى DB_HOST=mysql. في بعض المضيفين، قد يكون DB_HOST هو المضيف المحلي بدلاً من 127.0.0.1.',
                 'db_connections' => [
                     'mysql' => 'MySQL',
                     'sqlite' => 'SQLite',
@@ -89,24 +89,24 @@ return [
                 ],
             ],
         ],
-        'success' => 'Les paramètres de votre fichier .env ont été enregistrés.',
-        'errors' => 'Impossible d\'enregistrer le fichier .env. Veuillez le créer manuellement.',
+        'success' => 'تم حفظ معلمات ملف .env الخاص بك.',
+        'errors' => 'لا يمكن حفظ ملف .env، يرجى إنشاؤه يدوياً.',
     ],
 
     /**
      * Page de création de compte.
      */
     'createAccount' => [
-        'pageTitle' => 'Installation - Étape 4 : Créer un compte',
-        'title' => 'Créer un compte',
+        'pageTitle' => 'التثبيت - الخطوة 4: إنشاء حساب - الخطوة 4: إنشاء حساب',
+        'title' => 'إنشاء حساب',
         'form' => [
-            'first_name' => 'Prénom',
-            'last_name' => 'Nom de famille',
-            'username' => 'Nom d\'utilisateur',
-            'email' => 'E-mail',
-            'password' => 'Mot de passe',
-            'password_confirmation' => 'Confirmation du mot de passe',
-            'create' => 'Créer',
+            'first_name' => 'الإسم',
+            'last_name' => 'اسم العائلة',
+            'username' => 'اسم المستخدم',
+            'email' => 'البريد الإلكتروني',
+            'password' => 'كلمة المرور',
+            'password_confirmation' => 'تأكيد كلمة المرور',
+            'create' => 'إنشاء',
         ],
     ],
 
@@ -115,19 +115,19 @@ return [
      */
 
     'license' => [
-        'pageTitle' => 'Installation - Étape 5 : Activer la licence',
-        'title' => 'Activer la licence',
-        'skip' => 'Passer pour le moment',
+        'pageTitle' => 'التثبيت - الخطوة 5: تفعيل الترخيص',
+        'title' => 'تفعيل الترخيص',
+        'skip' => 'تجاوز في الوقت الحالي',
     ],
 
-    'install' => 'Installer',
+    'install' => 'تثبيت',
 
     'final' => [
-        'pageTitle' => 'Installation terminée',
-        'title' => 'Terminé',
-        'message' => 'L\'application a été installée avec succès.',
-        'exit' => 'Aller au tableau de bord d\'administration',
+        'pageTitle' => 'تم الانتهاء من التركيب',
+        'title' => 'تم الانتهاء',
+        'message' => 'تم تثبيت التطبيق بنجاح.',
+        'exit' => 'انتقل إلى لوحة تحكم الإدارة',
     ],
 
-    'install_success' => 'Installé avec succès!',
+    'install_success' => 'تم التثبيت بنجاح!',
 ];
