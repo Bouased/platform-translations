@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'yes' => 'Evet',
+    'no' => 'Hayır',
+    'is_default' => 'Varsayılan mı?',
+    'proc_close_disabled_error' => 'proc_close() fonksiyonu pasif. Lütfen Emcbilisim ile görüşün'."\n",
+    'email_template' => [
+        'header' => 'Header E-posta Şablonu',
+        'footer' => 'Footer E-posta Şablonu',
+        'site_title' => 'Site başlığı',
+        'site_url' => 'Site URL',
+        'site_logo' => 'Site Logo',
+        'date_time' => 'Şuanki tarih saat',
+        'date_year' => 'Şuanki yıl',
+        'site_admin_email' => 'Site admin e-postası',
+    ],
+    'change_image' => 'Resmi değiştir',
+    'delete_image' => 'Resmi sil',
+    'preview_image' => 'Resmi önizle',
+    'image' => 'Resim',
+    'using_button' => 'Buttonu kullan',
+    'select_image' => 'Resmi seç',
+    'click_here' => 'Click here',
+    'to_add_more_image' => 'daha fazla resim seç',
+    'add_image' => 'Resim ekle',
+    'tools' => 'Araçlar',
+    'close' => 'Close',
+    'panel' => [
+        'others' => 'Others',
+        'system' => 'System',
+        'manage_description' => 'Manage :name',
+    ],
+    'global_search' => [
+        'title' => 'Ara',
+        'search' => 'Ara',
+        'no_result' => 'Sonuç bulunamadı',
+        'to_select' => 'Seç',
+        'to_navigate' => 'Yukarı / Aşağı',
+        'to_close' => 'Kapat',
+    ],
+    'validation' => [
+        'email_in_blacklist' => 'The :attribute is in blacklist. Please use another email address.',
+        'domain' => 'The :attribute must be a valid domain.',
+    ],
+    'showing_records' => 'Showing :from to :to of :total records',
+];
